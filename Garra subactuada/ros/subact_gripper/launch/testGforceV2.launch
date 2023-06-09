@@ -1,0 +1,5 @@
+<?xml version="1.0" ?>
+<launch>
+  <node name="serial_sync" pkg="subact_gripper" type="serialSyncroV2.py" required="true" output="screen"/>
+  <node name="force_meassuring_dev" pkg="subact_gripper" type="gforceMeasDevice.py" required="false" output="screen"/>
+</launch>
